@@ -1,5 +1,5 @@
 +++
-title = "lbhelper：基於 Python 的 Debian Live Build 封裝工具"
+title = "lbhelper：基於 Python 的 Debian Live Build Wrapper"
 date = 2026-04-12
 draft = false
 categories = ["Debian", "Linux", "Python", "專案"]
@@ -19,7 +19,7 @@ TL;DR：如果你正嘗試建構自己的 Debian Images （針對桌面環境）
 
 除了上述通用型工具（可用於多數 Linux Distribution ）外，[Debian Live Build](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html) 則是專為 Debian 開發並由其社群維護的工具。除了官方的 Debian Images 外，也被用於基於 Debian 的發行版，例如 [Kali Linux](https://www.kali.org/docs/development/live-build-a-custom-kali-iso/)。Live Build 支援基於檔案與 Script 的設定方式，可以建立如 Ansible 或 Packer 一樣建立結構化的設定檔，並且在 chroot 環境中運行（關於透過純 chroot 建構 Image，參見[這篇文章](https://dev.to/vaiolabs_io/how-to-create-custom-debian-based-iso-4g37)）。此外，Live Build 支援建立 Live Image，可以在不需要直接安裝到目標機器或虛擬機的情況下，就能夠運作（甚至可以自訂 Live Images 的開機選單），使驗證最終的系統和發行你的 Images 更容易。
 
-## 運作原理
+## Live Build 運作原理
 
 要透過 Live Build 建立自訂 Images ，我們需要準備一個目錄來存放配置。其中，每個子目錄代表不同的配置類型，如下所示：
 
