@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hallblazzar: 開發者日誌</title>
+    <link>http://localhost:1313/zh-tw/</link>
+    <description>Recent content on Hallblazzar: 開發者日誌</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>關於我</title>
+      <link>http://localhost:1313/zh-tw/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-tw/about/</guid>
+      <description>&lt;p&gt;你好，我是 Bill。我是一名開發者，長期深耕於 Linux、網路、DevOps和SRE相關領域。有時我會在網路上使用 Hallblazzar 這個化名。目前在微軟擔任軟體工程師，負責 Azure AKS Infrastructure 相關領域的開發工作。除了建構服務之外，我更關注於服務的可擴展性和可觀測性議題。&lt;/p&gt;&#xA;&lt;p&gt;這個部落格是我記錄我的專案、想法以及我在這個精彩世界中所見所聞的地方。如果有任何問題/回饋，或想尋求合作機會，請不吝留言給我。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
