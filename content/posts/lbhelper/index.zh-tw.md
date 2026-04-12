@@ -2,7 +2,7 @@
 title = "lbhelper：基於 Python 的 Debian Live Build Wrapper"
 date = 2026-04-12
 draft = false
-categories = ["Debian", "Linux", "Python", "專案"]
+categories = ["Debian", "Linux", "Python", "Projects"]
 +++
 
 {{<notice tip>}}
