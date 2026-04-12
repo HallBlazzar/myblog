@@ -25,20 +25,20 @@ To create a customized image via Live Build, we need to prepare a directory to s
 
 ```text
 ├── auto                    # live-build auto-scripts. Defines config/build/cleanup options for live-build.
-├── config
-├── archives                # Package mirrors/repositories
-├── hooks                   # Extra scripts to run during build stages
-│   ├── live                # Hooks to run on live system
-│   └── normal              # Hooks to run on both live and installed system
-├── includes.binary         # Files to include on the ISO/CD Rom filesystem
-├── includes.chroot         # Files to include in the live system's filesystem
-├── package-lists           # Packages to install
-│   ├── *.list.chroot       # Packages to install on both installed and live system
-│   └── *.list.chroot_live  # Packages to install only on live system
-├── packages.chroot         # Standalone .deb packages to install on both installed and live system
-├── apt/preferences         # Build time aptitude preference. Takes effect while building imaage
-├── etc/apt/preferences     # Aptitude preference from installed system.
-└── bootloaders             # Bootloaders for live system
+└── config
+    ├── archives                # Package mirrors/repositories
+    ├── hooks                   # Extra scripts to run during build stages
+    │   ├── live                # Hooks to run on live system
+    │   └── normal              # Hooks to run on both live and installed system
+    ├── includes.binary         # Files to include on the ISO/CD Rom filesystem
+    ├── includes.chroot         # Files to include in the live system's filesystem
+    ├── package-lists           # Packages to install
+    │   ├── *.list.chroot       # Packages to install on both installed and live system
+    │   └── *.list.chroot_live  # Packages to install only on live system
+    ├── packages.chroot         # Standalone .deb packages to install on both installed and live system
+    ├── apt/preferences         # Build time aptitude preference. Takes effect while building imaage
+    ├── etc/apt/preferences     # Aptitude preference from installed system.
+    └── bootloaders             # Bootloaders for live system
 ```
 
 #### Live and Installed System
