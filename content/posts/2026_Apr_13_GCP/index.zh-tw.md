@@ -26,6 +26,8 @@ categories = ["GCP"]
 
 3. 無論如何調整 Entrypoint 或加入更多 Logs，Container 仍會如第 1 點所述直接結束，且不會出現預期的 Log。
 
+與 Azure Container Apps 或 AWS ECS 不同，在 GCP Cloud Run 上建立掛載 Network Filesystem Volumes 的服務時，缺乏適當權限不會讓操作立即失敗。相反地，使用者仍會看到檔案系統像往常一樣顯示掛載成功，但容器的進入點 Endpoints 卻無法正常執行。需要特別小心。
+
 ## Cloud Storage Volume 上的檔案存取問題
 
 小心如下的錯誤訊息：
