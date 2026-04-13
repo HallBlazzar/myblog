@@ -1,5 +1,5 @@
 +++
-title = "lbhepler: A Python based wrapper for Debian Live Build"
+title = "lbhepler: A Python Based Wrapper For Debian Live Build"
 date = 2026-04-12
 draft = false
 categories = ["Debian", "Linux", "Python", "Projects"]
