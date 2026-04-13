@@ -5,7 +5,7 @@ draft = false
 categories = ["GCP"]
 +++
 
-分享我最近在 GCP 上部署掛載 Cloud Storage Volume 的 Cloud Run Service時，遇到的一些值得分享的經驗。
+分享我最近在 GCP 上部署掛載 Cloud Storage Volume 的 Cloud Run Service時，遇到的一些值得一提的經驗（~坑~）。
 
 ##  Container 無故結束運行且未回報錯誤
 
@@ -41,4 +41,4 @@ categories = ["GCP"]
 
 我的假設是，Object Store Services 對於 Partial Write 或 Streaming 相關的操作可能存在限制。Object Storage Service 的設計初衷通常是針對**檔案本身**進行操作，而非針對其**內容**。在其他[討論](https://www.reddit.com/r/aws/comments/dplfoa/why_is_s3fs_such_a_bad_idea/)中，也有人探討過將 Object Storage Services 當作 Filesystem 所可能產生的問題。
 
-針對這個情況，我個人的最佳建議是：除非能確保對 Cloud Storage Volume 的檔案操作皆為檔案層級的操作，否則使用 Filestore 會更保險。 在我的狀況裡，我最終將專案改寫為使用 PostgreSQL 並搭配 Cloud SQL 作為資料庫。
+針對這個情況，我個人的最佳建議是：除非能確保對 Cloud Storage Volume 的檔案操作皆為檔案層級的操作，否則使用 Filestore 會更保險。 以我為例，最終我還是將專案改寫為使用 PostgreSQL 並搭配 Cloud SQL 作為資料庫。
