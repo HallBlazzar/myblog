@@ -1,5 +1,5 @@
 +++
-title = "Watchout Cloud Run with Cloud Storage Volumes"
+title = "Watchout Cloud Run With Cloud Storage Volumes"
 date = 2026-04-13
 draft = false
 categories = ["GCP"]
