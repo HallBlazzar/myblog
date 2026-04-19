@@ -139,6 +139,12 @@ customRemoteJS = []
 # # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 # connectsrc = ["'self'", "https://www.google-analytics.com"]
 
+[params.utterances]
+repo = "HallBlazzar/myblog-comments" # https://utteranc.es/#heading-repository
+issueTerm = "pathname" # https://utteranc.es/#heading-mapping
+label = "" # https://utteranc.es/#heading-issue-label
+theme = "gruvbox-dark" # https://utteranc.es/#heading-theme
+
 [taxonomies]
 category = "categories"
 series = "series"
