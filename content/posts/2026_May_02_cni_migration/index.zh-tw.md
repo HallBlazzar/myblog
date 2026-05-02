@@ -1,5 +1,5 @@
 +++
-title = "遷移 Kubernetes CNI Plugin 的一些經驗談"
+title = "關於遷移 Kubernetes CNI Plugin 的一些經驗談"
 date = 2026-05-02
 draft = false
 categories = ["Kubernetes", "Cilium"]
