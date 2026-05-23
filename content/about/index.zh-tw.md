@@ -18,7 +18,7 @@ showWordCount: false
 - Microsoft, 服務可靠性工程師, 內部翻譯系統, 愛爾蘭, Nov 2022 - Jun 2023 
 - Yellowbrick Data, DevOps 工程師, 英國, Oct 2021 - Nov 2022
 - AWS, 雲端支援工程師, 愛爾蘭, May 2021 - Aug 2021
-- AWS, 雲端支援工程師, 愛爾蘭, Aug 2019 - Apr 2021
+- AWS, 雲端支援工程師, 台灣, Aug 2019 - Apr 2021
 - 一辰/阜爾有限公司, 軟體工程師, 台灣, Sep 2025 - Feb 2017
 
 ## 專案
