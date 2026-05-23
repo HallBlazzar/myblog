@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="FDOq8PNeYSOkjSDUOeBx">
+    <mxGraphModel dx="600" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MAokymcj7jL1e28XprIH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="330" x="210" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="140" x="310" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-16" edge="1" parent="1" source="MAokymcj7jL1e28XprIH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MAokymcj7jL1e28XprIH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-18" connectable="0" parent="MAokymcj7jL1e28XprIH-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Client" vertex="1">
+          <mxGeometry relative="1" x="0.3988" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;NeBird Server&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cloud VM" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-8" edge="1" parent="1" source="MAokymcj7jL1e28XprIH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MAokymcj7jL1e28XprIH-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="470" />
+              <mxPoint x="380" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-10" edge="1" parent="1" source="MAokymcj7jL1e28XprIH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MAokymcj7jL1e28XprIH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Traefik Reverse Proxy" vertex="1">
+          <mxGeometry height="40" width="140" x="390" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service 1" vertex="1">
+          <mxGeometry height="40" width="60" x="350" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service 2" vertex="1">
+          <mxGeometry height="40" width="60" x="430" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="..." vertex="1">
+          <mxGeometry height="30" width="30" x="500" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Pi-Hole&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="230" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Local Server" vertex="1">
+          <mxGeometry height="50" width="80" x="340" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-14" edge="1" parent="1" source="MAokymcj7jL1e28XprIH-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MAokymcj7jL1e28XprIH-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="315" />
+            </Array>
+            <mxPoint x="170" y="380" as="sourcePoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MAokymcj7jL1e28XprIH-15" connectable="0" parent="MAokymcj7jL1e28XprIH-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Client" vertex="1">
+          <mxGeometry relative="1" x="0.0157" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
