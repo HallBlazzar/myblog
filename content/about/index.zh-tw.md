@@ -7,13 +7,14 @@ showDate: false
 showWordCount: false
 ---
 
-你好，我是 Bill。我是一名開發者，長期深耕於 Linux、網路、DevOps和SRE相關領域。有時我會在網路上使用 Hallblazzar 這個化名。目前在微軟擔任軟體工程師，負責 Azure AKS Infrastructure 相關領域的開發工作。除了建構服務之外，我更關注於服務的可擴展性和可觀測性議題。
+你好，我是 Bill。我是一名開發者，長期深耕於 Linux、網路、DevOps和SRE相關領域。有時我會在網路上使用 Hallblazzar 這個化名。目前在 MongoDB 擔任服務可靠性工程師，負責雲端安全相關領域。除了建構服務之外，我更關注於服務的可擴展性和可觀測性議題。
 
 這個部落格是我記錄我的專案、想法以及我在這個精彩世界中所見所聞的地方。如果有任何問題/回饋或是合作機會，請不吝留言給我。
 
 ## 經歷
 
-- Microsoft, 軟體工程師, Azure AKS 雲端基礎設施, 愛爾蘭, Jun 2024 - Present
+- MongoDB, 服務可靠性工程師, 雲端安全, 愛爾蘭, Sep 2026 - Present
+- Microsoft, 軟體工程師, Azure AKS 雲端基礎設施, 愛爾蘭, Jun 2024 - Sep 2026
 - Microsoft, 軟體工程師, 內部翻譯系統, 愛爾蘭, Aug 2023 - Jun 2024 
 - Microsoft, 服務可靠性工程師, 內部翻譯系統, 愛爾蘭, Nov 2022 - Jun 2023 
 - Yellowbrick Data, DevOps 工程師, 英國, Oct 2021 - Nov 2022

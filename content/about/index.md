@@ -7,14 +7,15 @@ showDate: false
 showWordCount: false
 ---
 
-Hi, I'm Bill Guo. A developer focuses on Linux, networking, DevOps and SRE related fields over a decade. Sometimes I use the alias, Hallblazzar, on internet. I'm currently a Software Engineer at Microsoft, working on Azure AKS Infrastructure development. In addition to building services, I'm more interested in how to make services scalable and observable.
+Hi, I'm Bill Guo. A developer focuses on Linux, networking, DevOps and SRE related fields over a decade. Sometimes I use the alias, Hallblazzar, on the internet. I'm a SRE at MongoDB, working on cloud security. In addition to building services, I'm more interested in how to make services scalable and observable.
 
 This blog is where I use to record my projects, ideas and 
 things I see in this amazing world. If you have any questions/feedbacks, or seeking collaborative opportunities, please don't hesitate to drop me messages.
 
 ## Experience
 
-- Microsoft, Software Engineer, Azure AKS Infrastructure, Ireland, Jun 2024 - Present 
+- MongoDB, Site Reliability Engineer, Cloud Security, Ireland, Sep 2026 - Present
+- Microsoft, Software Engineer, Azure AKS Infrastructure, Ireland, Jun 2024 - Sep 2026 
 - Microsoft, Software Engineer, Translation, Ireland, Aug 2023 - Jun 2024 
 - Microsoft, Site Reliability Engineer, Translation, Ireland, Nov 2022 - Jun 2023 
 - Yellowbrick Data, DevOps Engineer, UK, Oct 2021 - Nov 2022 
