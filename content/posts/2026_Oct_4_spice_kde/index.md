@@ -12,11 +12,11 @@ If you are running desktop environments in VMs and are unable to share clipboard
 I encountered this issue while running [Kali Linux](https://www.kali.org/) in virt-manager/QEMU based VMs. When setting up desktop environment in virt-manager, if you need to share clipboard between host machine and guest VM, setup spice with the steps according to [the topic](https://www.spice-space.org/spice-user-manual.html#agent) is necessary:
 1. Add a virtuio serial device
    <div style="text-align: center;">
-       <img src="images/virtio_serial.png">
+       <img src="/posts/2026_oct_4_spice_kde/images/virtio_serial.png">
    </div>
 2. Add a spicevmc channel
    <div style="text-align: center;">
-       <img src="images/spice_channel.png">
+       <img src="/posts/2026_oct_4_spice_kde/images/spice_channel.png">
    </div>
 
 Although some guides suggest installing `spice-vdagent` on host machines, it's generally unnecessary to modern distributions such as Ubuntu 26.04+ and Debian 13+. 

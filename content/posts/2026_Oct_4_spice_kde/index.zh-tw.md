@@ -12,12 +12,15 @@ categories = ["Linux"]
 這是我在基於 virt-manager/QEMU 的虛擬機器中執行 [Kali Linux](https://www.kali.org/) 時發現的問題。在 virt-manager 中設定桌面環境時，若需要在宿主機與虛擬機之間共用剪貼簿，需依據 [SPICE 官方文件](https://www.spice-space.org/spice-user-manual.html#agent)執行以下步驟：
 
 1. 新增一個 VirtIO serial device
+
    <div style="text-align: center;">
-       <img src="images/virtio_serial.png">
+       <img src="/posts/2026_oct_4_spice_kde/images/virtio_serial.png">
    </div>
+
 2. 新增一個 Spicevmc channel
+
    <div style="text-align: center;">
-       <img src="images/spice_channel.png">
+       <img src="/posts/2026_oct_4_spice_kde/images/spice_channel.png">
    </div>
 
 雖然有些教學會建議在宿主機端安裝 `spice-vdagent`，但對較新的發行版（例如 Ubuntu 26.04+ 或 Debian 13+）來說，基本上沒有這個必要。
