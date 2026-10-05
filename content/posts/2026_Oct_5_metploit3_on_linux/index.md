@@ -2,7 +2,7 @@
 title = "Problem with Metasploitable3 on Linux+AMD"
 date = 2026-10-05
 draft = false
-categories = ["Linux", "Securiyt"]
+categories = ["Linux", "Security"]
 +++
 
 TL;DR, If you're trying to run Metasploitable3 on Linux/KVM and AMD CPU, my best advise is: DON'T. Switch to Wintel environments—it will save a lot of headaches.
@@ -27,7 +27,8 @@ According to this [blog](https://blog.wikichoon.com/2014/07/enabling-hyper-v-enl
 
 Building Ubuntu 14.04 directly for KVM/QEMU is practically impossible.
 
-First of all, build command inside the build script is broken, and must be patched manually based on this PR - https://github.com/rapid7/metasploitable3/pull/627/changes/9d8a669fbdef64158b6684ec3755b31e1462e611. 
+First of all, build command inside the build script is broken, and must be patched manually based on this PR 
+- https://github.com/rapid7/metasploitable3/pull/627/changes/9d8a669fbdef64158b6684ec3755b31e1462e611. 
 
 Second, the build process requires [Packer Plugin Chef](https://github.com/hashicorp/packer-plugin-chef) to install dependencies, but this plugin is unmaintained and no longer available from Packer's official plugin registry. Although [manual installation](https://github.com/hashicorp/packer-plugin-chef#manual-installation) still works, [Chef itself is not open-source anymore](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.reddit.com/r/devops/comments/b8l22o/chef_is_going_to_stop_open_source_releases/&ved=2ahUKEwi7x6WRv6GXAxXeQUEAHXhMCZEQFnoECCAQAQ&usg=AOvVaw3wG5a-2wOdDuGQ1eunb8Cj). The plugin needs to install Chef binary first to run cookbooks, but installation will always fail unless users modify the source code and supply a valid license.
 

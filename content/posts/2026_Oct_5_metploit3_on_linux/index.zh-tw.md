@@ -2,7 +2,7 @@
 title = "在 Linux + AMD 環境下執行 Metasploitable3 可能會遇到的問題"
 date = 2026-10-05
 draft = false
-categories = ["Linux", "Securiyt"]
+categories = ["Linux", "Security"]
 +++
 
 **TL;DR：** 如果你正嘗試在 Linux/KVM + AMD 平台上運行 Metasploitable3，我最好的建議是：別這麼做，直接換到 Wintel 環境。幫你自己省下大把時間與力氣。
